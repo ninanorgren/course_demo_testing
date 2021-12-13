@@ -1,0 +1,109 @@
+courses:
+    advisory_program:
+        canvasLink: ""
+        shortTitle: "Ph.D. Advisory Program"
+        longTitle: "The Swedish Bioinformatics Advisory Program"
+        prerequisites: []
+        bioschemas: []
+    adv_python:
+        canvasLink: ""
+        shortTitle: "Advanced Python"
+        longTitle: "Quick and clean advanced Python for data science in biology"
+        prerequisites: [intro_python, r_foundations]
+        bioschemas: []
+    bio_pis:
+        canvasLink: ""
+        shortTitle: "Bioinformatics for PIs"
+        longTitle: "Bioinformatics for Principal Investigators"
+        prerequisites: []
+        bioschemas: []
+    biostats:
+        canvasLink: "https://uppsala.instructure.com/courses/51998"
+        shortTitle: "Intro to biostatistics and ML"
+        longTitle: "Introduction to biostatistics and Machine Learning"
+        prerequisites: [r_foundations]
+        bioschemas: []
+    data_vizr:
+        canvasLink: ""
+        shortTitle: "Data visualization with R"
+        longTitle: "Data visualization with R"
+        prerequisites: [r_foundations]
+        bioschemas: []
+    epigenomics:
+        canvasLink: "https://uppsala.instructure.com/courses/51975"
+        shortTitle: "Epigenomics data analysis"
+        longTitle: "Epigenomics data analysis"
+        prerequisites: [intro_ngs]
+        bioschemas: []
+    intro_dm:
+        canvasLink: "https://uppsala.instructure.com/courses/52280"
+        shortTitle: "Intro to Data Management"
+        longTitle: "Introduction to Data Management Practices"
+        prerequisites: []
+        bioschemas: []
+    intro_ngs:
+        canvasLink: "https://uppsala.instructure.com/courses/47037"
+        shortTitle: "Intro to NGS"
+        longTitle: "Introduction to Bioinformatics using NGS data"
+        prerequisites: [tools_repres, intro_dm]
+        bioschemas: []
+    intro_python:
+        canvasLink: "https://uppsala.instructure.com/courses/47059"
+        shortTitle: "Introduction to Python"
+        longTitle: "Introduction to Python - with applications to bioinformatics"
+        prerequisites: []
+        bioschemas: []
+    nn_dl:
+        canvasLink: "https://uppsala.instructure.com/courses/47910"
+        shortTitle: "Neural Nets and DL"
+        longTitle: "Neural Nets and Deep Learning"
+        prerequisites: [intro_python, biostats]
+        bioschemas: []
+    omics_integration:
+        canvasLink: "https://uppsala.instructure.com/courses/52162"
+        shortTitle: "Omics Integration" 
+        longTitle: "Omics Integration and Systems Biology"
+        prerequisites: [r_foundations, intro_python, intro_ngs, biostats]
+        bioschemas: []
+    r_foundations:
+        canvasLink: ""
+        shortTitle: "R Programming"
+        longTitle: "R Programming Foundations for Life Scientists"
+        prerequisites: []
+        bioschemas: []
+    raukr:
+        canvasLink: ""
+        shortTitle: "RaukR Summer course"
+        longTitle: "RaukR Advanced R for Bioinformatics Summer course"
+        prerequisites: [r_foundations, biostats, intro_ngs]
+        bioschemas: []
+    rnaseq:
+        canvasLink: "https://uppsala.instructure.com/courses/52164"
+        shortTitle: "RNAseq data analysis"
+        longTitle: "RNAseq data analysis"
+        prerequisites: [intro_ngs]
+        bioschemas: []
+    scrnaseq:
+        canvasLink: "https://uppsala.instructure.com/courses/52011"
+        shortTitle: "single cell RNAseq"
+        longTitle: "Single cell RNAseq analysis"
+        prerequisites: [rnaseq, intro_python, r_foundations]
+        bioschemas: []
+    snakemake_byoc:
+        canvasLink: "https://uppsala.instructure.com/courses/52153"
+        shortTitle: "Snakemake BYOC"
+        longTitle: "Snakemake bring-your-own-code (BYOC)"
+        prerequisites: [tools_repres]
+        bioschemas: []
+    spatial:
+        canvasLink: ""
+        shortTitle: "Spatial transcriptomics"
+        longTitle: "Spatial transcriptomics"
+        prerequisites: [scrnaseq]
+        bioschemas: []
+    tools_repres:
+        canvasLink: "https://uppsala.instructure.com/courses/51980"
+        shortTitle: "Tools for Reproducible Research"
+        longTitle: "Tools for Reproducible Research"
+        prerequisites: []
+        bioschemas: []
